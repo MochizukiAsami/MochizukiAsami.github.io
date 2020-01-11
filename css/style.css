@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* CSS Document */
+body{
+	width:600px;
+	height: 500px;
+	text-align: center;
+    font-size: 0.85em;
+    color: darkblue;
+    margin: 2em 8em;/*余白の設定（横、縦）*/
+    background-color: #EAD9FF;
+	
+}
+table{
+	text-align: center;
+	width: 500px;
+	line-height: 100px;
+	background-color:#D1B8FF;
+	
+	
+}
+nav :hover{
+	display: #f6d;
+}
+
+#boxA{
+	width: 24%;
+	height: 18%;
+	float:left;
+	background-color: #A088AA; 
+	
+	
+}
+
+#boxB{
+	width:400px;
+	height: 600px;
+	float:right;
+	background-color: #B27CFF ;
+    padding: 20px;
+	
+	
+}
+#box1{
+    margin: auto;
+    line-height: 8.0em;
+    border: 6.0em;
+    
+    
+}
+
+top{
+    text-align: right;
+    color: crimson;
+    
+    
+}
+h1{
+  	font-size: 3.0em;
+    color: #39F;
+    
+}
+
+h2{
+    font-family: 'Noto Serif JP', serif;/*フォントの指定,
+    今使っているフォントが「Googleフォント」から取り出して使っている*/
+    
+}
+
+
+p{
+    line-height: 1.75;/*行間の幅調整*/
+}
+
+#footer a{
+	text-align: center;
+    padding: 8%;
+	background: #ccc;
+}
